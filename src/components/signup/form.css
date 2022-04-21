@@ -1,3 +1,9 @@
 #loginContainer{
   background-image: url('./business-men.jpg');
+  min-height: 600px;
+  
+}
+
+#card{
+  align-items: flex-end;
 }
