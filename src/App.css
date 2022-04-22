@@ -1,3 +1,13 @@
 #loginContainer{
   background-image: url('./business-men.jpg');
 }
+#logindiv{
+  min-height: 500px;
+  margin: 50%;
+}
+
+.card{
+  background-color: none;
+  backdrop-filter: blur(500px);
+  backdrop-filter: opacity(10%);
+}

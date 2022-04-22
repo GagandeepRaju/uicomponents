@@ -1,9 +1,45 @@
 #loginContainer{
   background-image: url('./business-men.jpg');
-  min-height: 600px;
   
 }
 
-#card{
+#firstdiv{
+  min-height: 200px;
+  /* background-color: brown; */
+  margin: 10em;
+}
+
+#logindiv{
+  display: grid;
   align-items: flex-end;
+  min-height: 100px;
+  height: auto;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+}
+
+#loginP{
+  color: aliceblue;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.container{
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "header header"
+  "main main";
+}
+
+.item{
+  justify-self: center;
+}
+
+.item.item-1{
+ grid-area: header;
+}
+.item.item-2{
+  grid-area: main;
 }
